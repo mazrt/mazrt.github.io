@@ -1,0 +1,345 @@
+       *{
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            -o-box-sizing: border-box; 
+        }
+        .vfuda{
+            width: 100%;
+        }
+        .vfuda header{
+            width: 100%;
+        }
+        .navbar,
+        .navbar-header,
+        .navbar-brand{
+            min-height: 80px;
+        }
+        .navbar-header{
+            margin-right: 100px;
+        }
+        .navbar-default{
+            background: #ffffff;
+            border:none;
+        }
+        .navbar-collapse ul li a{
+            text-align: center;
+            line-height: 3.5;
+            color: #000;
+        }
+        .navbar-default .navbar-toggle{
+            border: none;
+            margin-top: 24px;
+            margin-right: -80px;
+        }
+        .navbar-brand {
+            padding: 15px 40px;
+        }
+        .phonenum{
+            margin-top: 10px;
+            font-size: 20px;
+            display: none;
+        }
+        .vfuda header .banner{
+            margin-top: 80px;
+        }
+        @media (min-width: 1200px) {
+            .phonenum{
+                display: block;
+            }
+        }
+
+
+        /*introduction*/
+        .vfuda .content{
+            margin-top: 10px;
+        }
+        .vfuda .content section{
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        .vfuda .content h3{
+            color: #444;
+            font-weight: 200;
+            margin: 50px 0;
+        }
+        .vfuda .content .intro{
+            padding-bottom: 70px;
+        }
+        .vfuda .content .intro .enterprise-pic{
+            width: 100%;
+            height: 250px;
+            margin-bottom: 10px;
+            background: url(../media/1150931.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        .vfuda .content .intro .enterprise-word{
+           width: 100%;
+           height: 250px;
+           color: #444;
+           /*margin-top: 30px;*/
+           font-weight: 100;
+           overflow: hidden;
+           background: #ECEFF4;
+           padding: 20px 20px;
+        }
+        
+        /*关于我们*/
+        .vfuda .content .about-us{
+            width: 100%;
+            height: auto;
+            background: #fafafa;
+            padding-top: 30px;
+            padding-bottom: 50px;
+            overflow: hidden;
+        }
+        .vfuda .content .about-us h1{
+            text-align: center;
+            color: #444;
+            font-weight: 100;
+            padding: 10px 20px;
+            border: 4px solid #444;
+        }
+        .vfuda .content .about-us h5{
+            font-weight: 100;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            line-height: 1.5;
+        }
+        .vfuda .content .about-us .member-avatar ul{
+            list-style: none;
+            margin-left: -50px;
+         }
+         .vfuda .content .about-us .member-avatar ul li{
+             display: inline-block;
+             margin-left: 25px;
+         }
+
+         .vfuda .content .about-us .member-avatar ul li .mypopover{
+             display: block;
+             width: 100px;
+             height: 100px;
+             text-align: center;
+             border:1px solid #000;
+             border-radius: 100%;
+             outline: none;
+             opacity: 0.6;
+             transform: scale(1);
+             transition: opacity 0.5s linear,
+                        transform 0.5s linear;
+         }
+         .vfuda .content .about-us .member-avatar ul li .mypopover1{
+             background: url(../media/person1.png) no-repeat;
+             background-position: center center;
+             background-size: cover;
+         }
+         .vfuda .content .about-us .member-avatar ul li .mypopover2{
+             background: url(../media/person2.jpeg) no-repeat;
+             background-position: center center;
+             background-size: cover;
+         }
+         .vfuda .content .about-us .member-avatar ul li .mypopover3{
+             background: url(../media/person3.jpeg) no-repeat;
+             background-position: center center;
+             background-size: cover;
+         }
+         .vfuda .content .about-us .member-avatar ul li .mypopover4{
+             background: url(../media/person4.jpeg) no-repeat;
+             background-position: center center;
+             background-size: cover;
+         }
+         .vfuda .content .about-us .member-avatar ul li .mypopover:hover{
+             opacity: 1;
+             transform: scale(1.2);
+         }
+         .vfuda .content .about-us .tips{
+             color: #ccc;
+             font-weight: 100;
+             font-size: 14px;
+             text-align: center;
+         }
+
+
+        .vfuda .content .products{
+            width: 100%;
+            height: auto;
+            background: #fff;
+            text-align: center;
+            padding-bottom: 80px;
+        }
+        .vfuda .content .products h3{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-weight: 200;
+        }
+        .vfuda .content .products .play{
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 0 auto;
+            background: url(../media/play.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            opacity: 0.6;
+            transform: scale(0.8, 0.8);
+            outline: none;
+            transition: opacity 0.5s linear,
+                        transform 0.2s linear;
+
+        }
+        .vfuda .content .products .play:hover{
+            opacity: 1;
+            transform: scale(1, 1);
+        }
+
+        .vfuda .content .contact-us{
+            background: #eee;
+            position: relative;
+            width: 100%;
+            height: 500px;
+        }
+        .vfuda .content .contact-us .map{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .vfuda .content .contact-us .info{
+            width: 40%;
+            height: 100%;
+            background: rgba(0,0,0,0);
+            position: absolute;
+            top:0; right: 20px;
+        }
+        .vfuda .content .contact-us .info .btn-group-vertical{
+           position: absolute;
+           top: 40%; right: 0;
+        }
+        .vfuda .content .contact-us .info .btn-group-vertical .mylocation{
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,.5);
+            background:#fafafa  url('../media/location.png') no-repeat;
+            background-position: center center;
+            background-size: 50% 50%;
+        }
+
+        .vfuda .content .contact-us .info .btn-group-vertical .myInfo{
+            width: 50px;
+            height: 50px;
+            margin-top: 5px;
+            border-radius: 5px; 
+            box-shadow: 0 0 10px rgba(0,0,0,.5);
+            background: rgba(0,0,0,.1) url('../media/info.png') no-repeat;
+            background-position: center center;
+            background-size: 50% 50%;
+        }
+        
+        .vfuda .content .symbol{
+            width: 100%;
+            height: 200px;
+            margin-top: -20px;
+            background: url('../media/bg3.jpg') center center;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+        .vfuda .content .symbol .symbol-word{
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            background: rgba(0,0,0, 0.3);
+            text-align: center;
+            padding-top: 30px;
+        }
+        .vfuda .content .symbol .symbol-word h1{
+            font-size: 3.5rem;
+            font-weight: bolder;
+            color: #fff;
+        }
+        .vfuda .content .symbol .symbol-word h1::after{
+            content: "";
+            display: block;
+            width: 150px;
+            height: 1px;
+            margin: 20px auto;
+            border: 1px solid #fff;
+        }
+        .vfuda .content .symbol .symbol-word h5{
+            font-weight: 100;
+            color: #fafafa;
+            line-height: 1.5;
+            padding: 0 1rem;
+        }
+
+        
+        .vfuda footer{
+            height: auto;
+            width: 100%;
+            background: #2E2B2B;
+            color: #60606f;
+            font-size: 12px;
+            padding-bottom: 30px;
+            margin-top: 20px;
+        }
+        .vfuda footer ul{
+            list-style: none;
+            padding-left: 50px;
+        }
+        .vfuda footer .logo{
+            width: 200px;
+            height: 50px;
+            background: url(../media/logo4.png) no-repeat;
+            background-size: contain;
+            background-position: center center;
+        }
+        .vfuda footer .social{
+            margin-left: 45px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        .vfuda footer .social a{
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            margin-right: 10px;
+        }
+        .vfuda footer .social .mail-logo{
+            background: url('../media/mail.png') no-repeat;
+            background-size:contain;
+            background-position: center center;
+        }
+        .vfuda footer .social .qq-logo{
+            background: url('../media/QQ.png') no-repeat;
+            background-size:contain;
+            background-position: center center;
+        }
+        .vfuda footer .social .wechat-logo{
+            background: url('../media/wechat.png') no-repeat;
+            background-size:contain;
+            background-position: center center;
+        }
+        
+        .vfuda footer .qrd{
+            width: 125px;
+            height: 125px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            background: url('../media/qrd.png') no-repeat;
+            background-position: center center;
+            background-size: contain;
+        }
+        .vfuda .last{
+            width: 100%;
+            height:30px;
+            background: #393E46;
+        }
+
+        .fancybox-slide--video .fancybox-content {
+            width  : 600px;
+            height : 400px;
+            max-width  : 80%;
+            max-height : 80%;
+        }

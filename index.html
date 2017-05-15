@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>vfuda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!--高德地图-->
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <link href="https://cdn.bootcss.com/fancybox/3.0.47/jquery.fancybox.min.css" rel="stylesheet">
+    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+    <script src="http://webapi.amap.com/maps?v=1.3&key=e67a9add7001db55d56a60df037d9618"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="vfuda">
+          <header>
+              <!--navbar-->
+              <nav class="navbar navbar-default navbar-fixed-top vfuda-nav">
+                    <div class="container">
+                        <div class="row">
+                        <div class="navbar-header col-md-3">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="media/logo3.png" height="50" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="collapse navbar-collapse col-md-5" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#intro">公司简介</a></li>
+                                <li><a href="#about-us">关于我们</a></li>
+                                <li><a href="#products">产品介绍</a></li>
+                                <li><a href="#contact-us">联系我们</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav phonenum">
+                            <p class="navbar-text" style="color:#49f"><i class="glyphicon glyphicon-phone"></i>13233304596</p>
+                        </div>
+                    </div>
+                    </div>
+              </nav>
+              <!--banner-->
+            <div class="banner">
+                  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="media/1.jpeg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="media/2.jpeg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="media/3.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="media/4.png" alt="...">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                </div>
+            </div>
+          </header>
+
+          <div class="content">
+            <section class="intro" id="intro">
+                <div class="container">
+                    <h3>公司简介</h3>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4">
+                            <div class="enterprise-pic"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="enterprise-word">
+                                <p>
+                                大家好，这篇文章相对基础和简单，将会介绍基础的配色理论和一些实用的配色工具，
+                                这篇大家好，这篇文章相对基础和简单，将会介绍基础的配色理论和一些实用的配色工具，
+                                大家好，这篇文章相对基础和简单，将会介绍基础的配色理论和一些实用的配色工具，
+                                可能对于配色苦大家好这篇文章相对基础和简单，将会介绍基础的配色理论和一些实用的配色工具，
+                                可能对于配色苦手的新人会有一些帮助。对于配色苦大家好， 大家好，这篇文章相对基础和简单
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="about-us" id="about-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-xs-3"></div>
+                        <div class="col-md-4 col-xs-6">
+                            <h1>强大的研发团队</h1>
+                        </div>
+                        <div class="col-md-4 col-xs-3"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-xs-1"></div>
+                        <div class="col-md-6 col-xs-10">
+                            <h5>色苦大家好， 大家好，这篇文章相对基础和简单，将会介绍基础的配色理论和一些实用的配色工具，
+                    可能对于配色苦大</h5>
+                        </div>
+                        <div class="col-md-3 col-xs-1"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="member-avatar">
+                                <ul>
+                                    <li>
+                                        <a tabindex="0" role="button" class="mypopover mypopover1" data-placement="top" 
+                                        
+                                        data-toggle="popover" data-trigger="focus" title="Dismissible popover" 
+                                        data-content="And here's some amazing content. It's very engaging. Right?">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="0" role="button" class="mypopover mypopover2" data-placement="top"
+                                        data-toggle="popover" data-trigger="focus" title="Dismissible popover" 
+                                        data-content="And here's some amazing content. It's very engaging. Right?">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="0" role="button" class="mypopover mypopover3" data-placement="top"
+                                        data-toggle="popover" data-trigger="focus" title="Dismissible popover" 
+                                        data-content="And here's some amazing content. It's very engaging. Right?">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="0" role="button" class="mypopover mypopover4" data-placement="top"
+                                        data-toggle="popover" data-trigger="focus" title="Dismissible popover" 
+                                        data-content="And here's some amazing content. It's very engaging. Right?">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="0" role="button" class="mypopover mypopover3" data-placement="top"
+                                        data-toggle="popover" data-trigger="focus" title="Dismissible popover" 
+                                        data-content="And here's some amazing content. It's very engaging. Right?">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-4 col-xs-3"></div>
+                        <div class="col-md-4 col-xs-6">
+                            <span class="tips">点击头像查看详细信息</span>
+                        </div>
+                        <div class="col-md-4 col-xs-3"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="symbol">
+                <div class="symbol-word">
+                    <h1>追求卓越，智造未来</h1>
+                    <h5>大家好，这篇文章相对基础和简单，将会介绍基础的配色理论和一些实用的配色工具，
+                        可能对于配</h5>
+                </div>
+            </section>
+            <section class="products" id="products">
+                <h3>产品介绍</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                            <img src="media/products.jpeg" alt="...">
+                            <div class="caption">
+                                <h3>产品1</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <p>
+                                    <a class="play" data-fancybox href="https://v.qq.com/iframe/player.html?vid=b0502s4py8n&tiny=0&auto=0"
+                                    ></a>
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                            <img src="media/products.jpeg" alt="...">
+                            <div class="caption">
+                                <h3>产品1</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <p>
+                                   <span class="play" aria-hidden="true"></span>
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                            <img src="media/products.jpeg" alt="...">
+                            <div class="caption">
+                                <h3>产品1</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <p>
+                                    <span class="play" aria-hidden="true"></span>
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                            <img src="media/products.jpeg" alt="...">
+                            <div class="caption">
+                                <h3>产品1</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <p>
+                                    <span class="play" aria-hidden="true"></span>
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-us" id="contact-us">
+                <div class="map" id="map"></div>
+                <div class="info">
+                    <div class="btn-group-vertical">
+                        <a class="btn mylocation" id="reset"></a>
+                        <a class="btn myInfo" id="openInfo"></a>
+                    </div>
+                </div>
+            </section>
+          </div>
+
+          <footer>
+              <div class="container">
+                  <div class="row" style="margin-top: 50px;">
+                      <div class="col-md-3 col-xs-12">
+                          <div class="qrd"></div>
+                      </div>
+                      <div class="col-md-3 col-xs-12">
+                          <div class="social">
+                            <a href="mailto:123456@163.com" class="mail-logo"></a>
+                            <a href="mailto:123456@163.com" class="qq-logo"></a>
+                            <a href="mailto:123456@163.com" class="wechat-logo"></a>
+                          </div>
+                          <ul>
+                            <li>联系电话: 12345678902</li>
+                            <li>QQ: 1234567890</li>
+                            <li>Email: 123456@163.com</li>
+                            <li>微信: 12345678</li>
+                          </ul>
+                      </div>
+                      <div class="col-md-6 col-xs-12">
+                          <p class="logo"></p>
+                          <ul>
+                              <li>公司名称: 天津市维富达科技有限公司</li>
+                              <li>公司地址：天津市西青区红旗南路宾水西道398号</li>
+                              <li>©VFD TEHC, powered by zhouyufei.</li>
+                              <li>转载内容版权归作者及来源网站所有，本站原创内容转载请注明来源.</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>   
+          </footer>
+          <div class="last"></div> 
+      </div>
+    
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
