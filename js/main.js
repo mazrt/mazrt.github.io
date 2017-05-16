@@ -21,7 +21,7 @@ $(function(){
                 keyboardEnable: false,
                 doubleClickZoom: true,
                 zoom: 14,
-                center: [117.144306,39.069838]
+                center: [117.028104,39.232694]
             });
             map.setCity('天津');
 
@@ -35,11 +35,11 @@ $(function(){
             //重设中心点
             AMap.event.addDomListener(document.getElementById('reset'), 'click', function() {
                 // 设置缩放级别和中心点
-                map.setZoomAndCenter(14, [117.144306,39.069838]);
+                map.setZoomAndCenter(14, [117.028104,39.232694]);
                 // 在新中心点添加 marker 
                 var marker = new AMap.Marker({
                     map: map,
-                    position: [117.144306,39.069838]
+                    position: [117.028104,39.232694]
                 });
             });
             //打开信息窗体
@@ -50,8 +50,8 @@ $(function(){
                     var info = [];
                     info.push("<div><div><img style=\"float:left;\" src=\" http://webapi.amap.com/images/autonavi.png \"/></div> ");
                     info.push("<div style=\"padding:0px 0px 0px 4px;\"><b>高德软件</b>");
-                    info.push("电话 : 010-84107000   邮编 : 100102");
-                    info.push("地址 :北京市朝阳区望京阜荣街10号首开广场4层</div></div>");
+                    info.push("电话 : 18702258202   邮编 : 300134");
+                    info.push("地址 :天津市北辰区四纬路1号辰寰星谷孵化器</div></div>");
                     infoWindow = new AMap.InfoWindow({
                         content: info.join("<br/>")  //使用默认信息窗体框样式，显示信息内容
                     });
