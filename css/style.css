@@ -51,7 +51,7 @@
             color: #fafafa;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,.2);
+            background: rgba(0,0,0,.3);
             z-index: 999;
         }
         .vfuda header .banner .company-name .wrapper{
@@ -106,7 +106,7 @@
         }
         .vfuda .content .intro{
             padding-bottom: 100px;
-            background:linear-gradient(to bottom, #ffffff, #eee);
+            background: #ffffff;
         }
         .vfuda .content .intro .enterprise-pic{
             width: 100%;
@@ -172,28 +172,28 @@
                         transform 0.5s linear;
          }
          .vfuda .content .about-us .member-avatar ul li .mypopover1{
-             background: url(../media/person1.png) no-repeat;
+             background: url(../media/person1.jpg) no-repeat;
              background-position: center center;
              background-size: cover;
          }
          .vfuda .content .about-us .member-avatar ul li .mypopover2{
-             background: url(../media/person2.jpeg) no-repeat;
+             background: url(../media/person2.jpg) no-repeat;
              background-position: center center;
              background-size: cover;
          }
          .vfuda .content .about-us .member-avatar ul li .mypopover3{
-             background: url(../media/person3.jpeg) no-repeat;
+             background: url(../media/person3.jpg) no-repeat;
              background-position: center center;
              background-size: cover;
          }
          .vfuda .content .about-us .member-avatar ul li .mypopover4{
-             background: url(../media/person4.jpeg) no-repeat;
+             background: url(../media/person4.jpg) no-repeat;
              background-position: center center;
              background-size: cover;
          }
          .vfuda .content .about-us .member-avatar ul li .mypopover:hover{
              opacity: 1;
-             transform: scale(1.2);
+             transform: scale(1.1);
          }
          .vfuda .content .about-us .tips{
              color: #ccc;
@@ -208,6 +208,7 @@
             height: auto;
             background: #fff;
             text-align: center;
+            padding-top: 50px;
             padding-bottom: 50px;
         }
         .vfuda .content .products h3{
